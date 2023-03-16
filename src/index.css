@@ -26,13 +26,13 @@ h1 {
   width: 100%;
   height: 100vh;
   position: relative;
-  background-color: rgba(0,0,0,0.4);
+  background-color: rgba(138, 138, 138, 0.2);
   color: #fff;
 }
 
 .app:before {
   content: '';
-  background: url('./assets/sunset.jpg') no-repeat center center/cover;
+  background: url('./assets/sunsets.jpg') no-repeat center center/cover;
   position: absolute;
   width: 100%;
   height: 100%;
@@ -49,9 +49,10 @@ h1 {
 .app input {
   padding: .7rem 1.5rem;
   font-size: 1.2rem;
-  border-radius: 25px;
-  border: 1px solid rgba(255,255,255, 0.8);
-  background: rgba(255,255,255, 0.1);
+  border-radius: 5px;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  border: 2px solid rgba(255,255,255, 0.8);
+  background: rgba(255, 255, 255, 0.2);
   color: #f8f8f8;
 }
 
@@ -80,7 +81,7 @@ h1 {
   position: relative;
   right: -90%;
   transform-origin: 0 0;
-  transform: rotate(269deg);
+  transform: rotate(0deg);
 }
 
 .app .bottom {
